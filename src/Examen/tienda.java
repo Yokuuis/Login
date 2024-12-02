@@ -19,7 +19,7 @@ public class tienda extends javax.swing.JFrame {
 
     public void calcularSuma() {
         String producto = txtProducto.getText().trim();
-
+//hola
         String precioTexto = txtPrecio.getText().trim().replace("$", "");
         Integer precio = Integer.valueOf(precioTexto);
 
